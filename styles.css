@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+margin: 0 auto;
+
+}
+body{
+    
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 0px;
+margin: 0 auto;
+background: #eceaea;
+
+
+    
+}
+
+main{
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 45px;
+}
+
+.banner{
+    /* Frame 4 */
+position: static;
+width: auto;
+height: 375px;;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64;
+padding: 80px 100px 180px 100px;
+margin: 0;
+
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 80px 0px;
+
+border-radius: 24px;
+
+background: rgb(198, 228, 214);
+}
+
+
+
+.banner .img{
+   padding: 0;
+    
+}
+.banner img{
+    display:inline-block;
+    width: 317px;
+    height: auto;
+    padding: 0;
+    
+}
+
+.paragraph h6{
+    color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.paragraph h2{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 38px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.paragraph{
+    width: 417px;
+    margin: 5px;
+
+   
+}
+p{
+    margin: 20px auto;
+}
+
+.feature-content{
+    padding: 34px;
+    border-radius: 16px;
+}
+
+.feature-content button{
+    padding:11px 20px;
+    border-radius: 16px;
+    margin: 12px auto;
+    border:none;
+}
+
+.feature-card-container{
+    display:flex;
+    gap:45px;
+
+}
+
+
+ .futercard1{
+   background-color:rgba(84, 144, 245, 0.2);
+}
+ .futercard2{
+   background-color:rgb(198, 228, 214);
+    
+}
+ .futercard3{
+    background-color: rgb(247, 235, 207);
+}
+
+.futercard1 button{
+    background-color:rgb(84, 144, 245);
+ }
+  .futercard2 button{
+    background-color:rgb(9, 161, 92);
+     
+ }
+  .futercard3 button{
+     background-color: rgb(255, 194, 57);
+     border:none;
+     
+ }
+
+ .btn-primary{
+    color:white;
+    background-color:rgb(0, 106, 80) ; 
+    padding:7px;
+    border:none;
+    border-radius:7px;
+ }
+
+ .inline-text{
+    display: inline;
+    margin-right: 34px;
+ }
+
+ /* news container......... */
+ .news{
+    display: flex;
+    flex-direction: column;
+ }
+ .news-container{
+    display:flex;
+    flex-direction: row;
+   
+   background-color: #fff;
+   gap:40px;
+   margin: 45px;
+    padding: 34px;
+    border-radius: 14px;
+
+ }
+
+ .news-card-context{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: baseline;
+    text-align: left;
+   
+ }
+
+ .news-card-img img{
+    border-radius:15px;
+ }
+
