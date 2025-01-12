@@ -45,13 +45,6 @@ align-items: center;
 gap: 64;
 padding: 80px 100px 180px 100px;
 margin: 0;
-
-
-
-/* Inside Auto Layout */
-flex: none;
-order: 0;
-flex-grow: 0;
 margin: 80px 0px;
 
 border-radius: 24px;
