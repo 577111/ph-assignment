@@ -167,23 +167,29 @@ p{
     flex-direction: row;
    
    background-color: #fff;
-   gap:40px;
+   gap:10px;
    margin: 45px;
     padding: 34px;
     border-radius: 14px;
+    justify-content: flex-start;
+    align-items:center;
 
  }
 
  .news-card-context{
-    display:flex;
-    flex-direction: column;
-    justify-content:flex-start;
-    align-items: baseline;
-    text-align: left;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 32;
+padding: 0px;
+
+
    
  }
 
  .news-card-img img{
     border-radius:15px;
+    display: inline-block;
  }
 
