@@ -66,6 +66,13 @@ background: rgb(198, 228, 214);
     
 }
 
+.banner button{
+    padding: 23px;
+    font-weight: 700;
+    font-size:larger;
+   font-family: Fira Sans;
+}
+
 .paragraph h6{
     color: rgba(14, 14, 14, 0.5);
 font-family: Fira Sans;
@@ -162,12 +169,13 @@ p{
     flex-direction: row;
    
    background-color: #fff;
-   gap:10px;
+   gap:30px;
    margin: 45px;
     padding: 34px;
     border-radius: 14px;
-    justify-content: flex-start;
-    align-items:center;
+    justify-content: space-around;
+    align-items: flex-start
+
 
  }
 
@@ -176,11 +184,8 @@ p{
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
-gap: 32;
+
 padding: 0px;
-
-
-   
  }
 
  .news-card-img img{
