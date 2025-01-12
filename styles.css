@@ -35,8 +35,8 @@ padding: 45px;
 .banner{
     /* Frame 4 */
 position: static;
-width: auto;
-height: 375px;;
+width: 1075px;
+height:auto; 
 /* Auto layout */
 display: flex;
 flex-direction: row;
